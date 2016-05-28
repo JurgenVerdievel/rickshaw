@@ -6,11 +6,11 @@
 
 <script src="../rickshaw.min.js"></script>
 
-<div id="chart"></div>
+<div id="chart1"></div>
 <div id="slider"></div>
 
 <script>
-//change
+
 var seriesData = [ [], [] ];
 var random = new Rickshaw.Fixtures.RandomData(1500000);
 
@@ -19,7 +19,7 @@ for (var i = 0; i < 900; i++) {
 }
 
 var graph = new Rickshaw.Graph({
-	element: document.getElementById("chart"),
+	element: document.getElementById("chart1"),
 	width: 960,
 	height: 500,
 	stroke: true,
